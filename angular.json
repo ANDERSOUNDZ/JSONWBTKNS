@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "JWTokens": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "JWTokens"
+    }
+  },
+  "defaultProject": "JWTokens",
+  "cli": {
+    "analytics": "f450d381-f78c-4ee2-86b2-d042ee1be9d5"
+  }
 }
